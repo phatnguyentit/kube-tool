@@ -1,0 +1,3 @@
+webapp:
+  - 'WebApplication\bin\WebApplication_Blazor.dll'
+  - 'WebApplication\bin\WebApplication.Business.dll'

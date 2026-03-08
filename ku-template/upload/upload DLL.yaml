@@ -1,0 +1,4 @@
+local:
+  - 'C:\usr\Web\bin\Release\AnotherDLL.dll'
+remote:
+  webapp: 'Web\bin'

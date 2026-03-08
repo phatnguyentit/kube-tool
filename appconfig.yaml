@@ -1,0 +1,17 @@
+kube-context: aks-prd
+namespace: insurance # default namespace for helm release, if not set, it will be default
+helm-release-set:
+  - $Environment-$Tenant
+  - $Environment-$Tenant-infra
+
+# PERSONAL SETTING ZONE
+tenant-set:
+  - tenant1
+  - tenant2
+  - tenant3
+  - tenant4
+environment-set:
+  - env1
+  - env2
+  - env3
+  - env4

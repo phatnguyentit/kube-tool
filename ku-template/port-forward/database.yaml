@@ -1,0 +1,3 @@
+deployment: database
+remote-port: 1433
+local-port: 1433

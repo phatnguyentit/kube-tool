@@ -1,0 +1,9 @@
+database:
+  remote-port: 1433
+  local-port: 1433
+memcached:
+  remote-port: 3020 
+  local-port: 3020
+rabbitmq:
+  remote-port: 5672 
+  local-port: 5672

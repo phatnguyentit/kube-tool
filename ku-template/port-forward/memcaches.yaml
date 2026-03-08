@@ -1,0 +1,3 @@
+deployment: memcached
+remote-port: 3020 
+local-port: 3020

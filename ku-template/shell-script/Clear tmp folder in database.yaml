@@ -1,0 +1,3 @@
+database:
+  description: 'Remove all items in side directory tmp'
+  shell-script: 'rm -rf tmp\ -f'

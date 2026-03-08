@@ -1,0 +1,4 @@
+description: 'This is the description for the script'
+database: 'OrdersDatabase'
+scriptfile: 'Remove unused orders.sql'
+json-output: false

@@ -1,0 +1,3 @@
+webapp:
+    - 'Order\WebApi\Web.config'
+    - 'Payment\WebApi\Web.config'

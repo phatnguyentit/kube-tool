@@ -1,0 +1,2 @@
+webapp:
+    - 'Order\WebApplication\Web.config'

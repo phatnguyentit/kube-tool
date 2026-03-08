@@ -1,0 +1,3 @@
+webapp:
+  description: 'This copy log into folder for downloading'
+  shell-script: '$item = Get-ChildItem -Path .\\ -Filter "*_web.log"; Copy-Item $item.FullName -Destination C:\\inetpub\\wwwroot\\WebApplication\\'
