@@ -139,24 +139,6 @@ database:
   shell-script: 'rm -rf tmp\ -f'
 ```
 
-### 9. Execute Procedures
-
-Chain multiple templates into multi-step workflows with optional wait periods between steps.
-
-**Template folder:** `ku-template/procedure/`
-
-```yaml
-# Example:
-procedure:
-    - template:
-          port-forward: database.yaml
-    - template:
-          sql-script: "Add table Advice database.yaml"
-    - wait: 5
-    - template:
-          sql-script: "Another script.yaml"
-```
-
 ## Project Structure
 
 ```
@@ -183,7 +165,6 @@ kube-tool/
 │   ├── ku-log.psm1            # Pod log retrieval
 │   ├── ku-app-configuration.psm1  # App config download/edit/upload
 │   ├── ku-deployment-walkthrough.psm1  # Deployment dashboard
-│   ├── ku-procedure.psm1      # Multi-step procedure orchestrator
 │   ├── ku-job-handler.psm1    # (Reserved)
 │   ├── ku-teardown-environment.psm1  # (Reserved)
 │   └── net.helper.psm1        # TCP port testing utility
