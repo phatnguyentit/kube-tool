@@ -1,3 +1,4 @@
+[![CI](https://github.com/phatnguyentit/kube-tool/actions/workflows/blank.yml/badge.svg)](https://github.com/phatnguyentit/kube-tool/actions/workflows/blank.yml)
 # kube-tool
 
 A menu-driven PowerShell CLI tool for managing applications running on **Kubernetes** (AKS, EKS, GKE, on-prem, or any cluster accessible via `kubectl`). It simplifies day-to-day Kubernetes operations through a **template-driven** approach — most tasks can be added or customized by editing YAML files, with no code changes required.
